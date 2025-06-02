@@ -1,0 +1,36 @@
+{
+  "name": "perfpro",
+  "version": "0.1.0",
+  "description": "Node.js performance profiler and logger",
+  "type": "module",
+  "main": "./perfpro.js",
+  "exports": "./perfpro.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "perfpro.js"
+  ],
+  "keywords": [
+    "performance",
+    "profiling",
+    "logging"
+  ],
+  "engines": {
+    "node": ">= 20.0.0"
+  },
+  "homepage": "https://github.com/craigbuckler/perfpro#readme",
+  "bugs": {
+    "url": "https://github.com/craigbuckler/perfpro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigbuckler/perfpro.git"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/craigbuckler"
+  },
+  "license": "MIT",
+  "author": "Craig Buckler"
+}
