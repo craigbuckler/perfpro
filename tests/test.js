@@ -48,6 +48,7 @@ describe('mark checks', async () => {
 describe('duration checks', async () => {
 
   it('wait totals', () => assert(w1 + w2 + w3 < s));
+  it('now check', () => assert(s < perf.now()) );
 
 });
 

@@ -1,4 +1,4 @@
-# PerfPro: Node.js performance profiler and logger
+# PerfPro: Node.js performance profiler
 
 PerfPro is a wrapper for the high-resolution [Node.js Performance measurement API](https://nodejs.org/docs/latest/api/perf_hooks.html).
 
@@ -40,6 +40,9 @@ perf.clear('process-data');
 
 // clear all marks for the app
 perf.clear();
+
+// show time since application started
+console.log( perf.now() );
 ```
 
 
@@ -76,3 +79,8 @@ Returns an array of `{ name, duration }` objects for all marks.
 Clears marks for the app.
 
 * `name` (string, optional): mark name. Pass nothing to to clear all marks for the app.
+
+
+### `now()`
+
+Returns time since application started.

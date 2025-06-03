@@ -1,7 +1,7 @@
 {
   "name": "perfpro",
-  "version": "0.1.0",
-  "description": "Node.js performance profiler and logger",
+  "version": "0.2.0",
+  "description": "Node.js performance profiler",
   "type": "module",
   "main": "./perfpro.js",
   "exports": "./perfpro.js",
@@ -14,7 +14,9 @@
   "keywords": [
     "performance",
     "profiling",
-    "logging"
+    "record",
+    "time",
+    "duration"
   ],
   "engines": {
     "node": ">= 20.0.0"

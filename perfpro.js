@@ -44,6 +44,15 @@ export class PerfPro {
 
 
   /**
+   * Returns time since application started
+   * @returns {number}
+   */
+  now() {
+    return performance.now();
+  }
+
+
+  /**
    * Record a performance mark
    * Call twice with same name to set start and end
    * @param {string} name - mark name
